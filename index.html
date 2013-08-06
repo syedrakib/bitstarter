@@ -128,6 +128,7 @@
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
     <!-- http://stackoverflow.com/a/12270322 -->
     <div class="container">
+      
       <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
       <!-- www.google.com/fonts/specimen/Ubuntu -->
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
@@ -135,7 +136,8 @@
         <div class="span12">
           <h1>Glossy Qur'an</h1>
         </div>
-      </div> 
+      </div>
+
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
@@ -143,62 +145,65 @@
           <p class="lead">Beautiful Qur'an app for web and mobile</p>
         </div>
       </div>
+
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
           <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
-
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
           <div class="row-fluid">
-          <div class="span8 offset2">
-            <div class="row-fluid statistics">
-              <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
-                <div class="linediv-l">
-                <h3>1</h3> <p>backer(s)</p>
+            <div class="span8 offset2">
+              <div class="row-fluid statistics">
+                <div class="span4">
+                  <!-- linediv-l and linediv-r give dividing lines that look
+                  different in horizontal and vertical layouts, illustrating
+                  media queries. -->
+                  <div class="linediv-l">
+                    <h3>1</h3> 
+                    <p>backer(s)</p>
+                  </div>
                 </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-c">
-                  <h3>$10</h3> <p>of $10,000</p>
+                <div class="span4">
+                  <div class="linediv-c">
+                    <h3>$10</h3> 
+                    <p>of $10,000</p>
+                  </div>
                 </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-r">
-                <h3>60</h3> <p>days left</p>
+                <div class="span4">
+                  <div class="linediv-r">
+                    <h3>60</h3> 
+                    <p>days left</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row-fluid">
-          <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-            <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 05%;"></div>
-              <div class="bar bar-warning" style="width: 95%;"></div>
+            <div class="row-fluid">
+              <div class="span10 offset1">
+                <!-- Bootstrap progress bar -->
+                <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+                <div class="thermometer progress active">
+                  <div class="bar bar-success" style="width: 05%;"></div>
+                  <div class="bar bar-warning" style="width: 95%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span6 offset3 order">
+                <!-- Standard Bootstrap button. -->
+                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+                <button class="btn btn-success btn-large">Preorder</button>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span8 offset2 social">
+                <!-- Social buttons are not included in default Bootstrap. -->
+                <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+                <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+              </div>
             </div>
           </div>
-          </div>
-          <div class="row-fluid">
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">Preorder</button>
-          </div>
-          </div>
-          <div class="row-fluid">
-          <div class="span8 offset2 social">
-            <!-- Social buttons are not included in default Bootstrap. -->
-            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-          </div>
-          </div>
-        </div>
         </div>
       </div>
 
@@ -260,38 +265,37 @@
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
       <div class="row-fluid faq asset">
-          <div class="span10 offset1">
-            <h3>FAQ</h3>
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseOne">
-                    How is it Free?
-                  </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    It is free to use our products. We consider this a lasting-charity for the mankind. May Allah accept all our charities and good deeds with the best of our intentions for serving none but Allah.
-                  </div>
+        <div class="span10 offset1">
+          <h3>FAQ</h3>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse"
+                   data-parent="#accordion2" href="#collapseOne">
+                  How is it Free?
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  It is free to use our products. We consider this a lasting-charity for the mankind. May Allah accept all our charities and good deeds with the best of our intentions for serving none but Allah.
                 </div>
               </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseTwo">
-                    Why are you asking for funding if this is meant to be your charity?
-                  </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    The engineers and marketers behind the scene have to work tremendously hard for developing products like these and getting them to your hands. There are server costs, there are software license fees, and there is also a social cost which we have to bear for finding hours beyond our regular paid jobs to support our families. Every penny you spend for this cause is a contribution from you to keep this project running for the sake of Allah - it is a sadaqa (charity) from you too.
-                  </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse"
+                   data-parent="#accordion2" href="#collapseTwo">
+                  Why are you asking for funding if this is meant to be your charity?
+                </a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  The engineers and marketers behind the scene have to work tremendously hard for developing products like these and getting them to your hands. There are server costs, there are software license fees, and there is also a social cost which we have to bear for finding hours beyond our regular paid jobs to support our families. Every penny you spend for this cause is a contribution from you to keep this project running for the sake of Allah - it is a sadaqa (charity) from you too.
                 </div>
               </div>
             </div>
           </div>
-
+        </div>
       </div>
 
       <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
@@ -305,6 +309,7 @@
             put at the bottom of the page.</p>
         </div>
       </div>
+      
     </div>
   </body>
 </html>
